@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    
+<head> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>feedback</title>
+    <script src="https://kit.fontawesome.com/f328782c1f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/feedback.css">
+   
+</head>
+
+<body>
+    <form>
+	<div class="container">
+		<div class="feedback">
+			<div class="emoj">
+              <div id="emoj">
+				<img src="CSS/Images/sad.png">
+                <img src="CSS/Images/cool.png">
+                <img src="CSS/Images/happy.png">
+				<img src="CSS/Images/love.png">
+				<img src="CSS/Images/star.png">
+            </div>
+			</div>
+		
+        <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="submit">
+        <button type="submit" class="sub" name="post">Submit</button>
+    </div>
+    </div>
+	</div>
+</form>
+   <script>
+    
+    var star= document.getElementsByClassName("fa-solid")
+        
+        var emoj = document.getElementById("emoj");
+
+        star[0].onclick = function(){
+            star[0].style.color="#ffd93b";
+            star[1].style.color="#e4e4e4";
+            star[2].style.color="#e4e4e4";
+            star[3].style.color="#e4e4e4";
+            star[4].style.color="#e4e4e4";
+            emoj.style.transform = "translateX(0)";
+        }
+        star[1].onclick = function(){
+            star[0].style.color="#ffd93b";
+            star[1].style.color="#ffd93b";
+            star[2].style.color="#e4e4e4";
+            star[3].style.color="#e4e4e4";
+            star[4].style.color="#e4e4e4";
+            emoj.style.transform = "translateX(-100px)";
+        }
+        star[2].onclick = function(){
+            star[0].style.color="#ffd93b";
+            star[1].style.color="#ffd93b";
+            star[2].style.color="#ffd93b";
+            star[3].style.color="#e4e4e4";
+            star[4].style.color="#e4e4e4";
+            emoj.style.transform = "translateX(-200px)";
+        }
+        star[3].onclick = function(){
+            star[0].style.color="#ffd93b";
+            star[1].style.color="#ffd93b";
+            star[2].style.color="#ffd93b";
+            star[3].style.color="#ffd93b";
+            star[4].style.color="#e4e4e4";
+            emoj.style.transform = "translateX(-300px)";
+        }
+        star[4].onclick = function(){
+            star[0].style.color="#ffd93b";
+            star[1].style.color="#ffd93b";
+            star[2].style.color="#ffd93b";
+            star[3].style.color="#ffd93b";
+            star[4].style.color="#ffd93b";
+            emoj.style.transform = "translateX(-400px)";
+        }
+   </script>
+</body>
+</html>

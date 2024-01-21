@@ -1,0 +1,99 @@
+		
+
+.signup-box{
+	
+	width: 500px;
+	height: 630px;
+	/* margin:auto; */
+	background-color: rgba(46, 43, 45, 0.925);
+    /* color: rgb(23, 20, 20); */
+	color: white;
+	border-radius: 5px;
+    border-radius: 20px;
+   
+}
+.signup-box text{
+    padding-right: 100%;
+    text-align: center;
+}
+body{
+    background:url("CSS/images/sgn.jpg"); 
+     background-repeat: no-repeat; 
+       background-size: cover;
+        background-position: center;
+        background-color: black;
+      
+    }
+.head{
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+form{
+	width: 300px;
+	margin-left: 60px;
+}
+form label{
+    display:flex;
+    margin-top: 20px;
+    font-size: 18PX;
+}
+Form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6PX;
+    outline: auto;
+}
+input[type="submit"]{
+    padding-left: 50px;
+    width: 32px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(102, 92, 145);
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+button{
+    
+    width: 150px;
+    border-radius: 10px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(102, 92, 145);
+    color: white;
+    font-size: 18px;
+}
+p{
+    text-align: center;
+    padding-top: 13px;
+    font-size: 18px;
+
+}
+.para-2{
+    text-align: center;
+    color: black;
+    font-size: 13px;
+    margin-top: -10px;
+    padding: 10px;
+}
+.para-2 a{
+    color: #941073;
+}
+.log{
+    color: white;
+}
+.log a{
+    color: #941073;
+}
+h3{
+    
+    letter-spacing:0.1em;
+    text-decoration: underline;
+}
+

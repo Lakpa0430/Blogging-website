@@ -1,0 +1,79 @@
+body {
+    
+    background-image: url("Images/sgn.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+      
+     /* margin: 0;
+      padding: -5px;*/
+      
+     }
+ 
+     h3 {
+         margin-top: 20px;
+         padding-top: 40px;
+         letter-spacing: 0.1rem;
+         text-decoration: underline;
+     }
+ 
+     .container {
+         width: 360px;
+         height: 450px;
+         margin-left: 870px;
+        
+         background-color: black;
+         color: white;
+         border-radius: 5px;
+         text-align: center;
+         margin-top: 170px;
+     }
+ 
+     form label {
+         display: flex;
+         margin-top: 20px;
+         font-size: 18PX;
+     }
+ 
+     form {
+         width: 300px;
+         margin-left: 20px;
+     }
+ 
+     Form input {
+         width: 100%;
+         padding: 8px;
+         border: none;
+         margin-top: 20px;
+         border: 1px solid gray;
+         border-radius: 20PX;
+ 
+     }
+ 
+     button[type="submit"] {
+         width: 320px;
+         height: 35px;
+         margin-top: 20px;
+         border: none;
+         background-color: rgb(102, 92, 145);
+         color: white;
+         font-size: 18px;
+         border-radius: 10px;
+     }
+ 
+     .container .remember {
+         margin-top: 15px;
+     }
+ 
+     .container .remember input[type="checkbox"] {
+         cursor: pointer;
+     }
+
+    @media screen and (min-width:480px) {
+        body{
+            background-color: blue;
+        }
+        .container .nav{
+            margin: 1px;
+        }
+        
+    }
